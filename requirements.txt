@@ -13,3 +13,5 @@ lightgbm==2.3.1
 pytest==5.4.3
 tqdm==4.56.0
 fbprophet==0.7.1
+python-binance==1.0.15
+mplfinance==0.12.7a17
