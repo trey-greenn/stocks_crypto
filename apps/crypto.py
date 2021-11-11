@@ -4,8 +4,8 @@ from binance import Client
 import mplfinance as mpf
 
 client = Client(
-    api_key ,
-    api_secret)
+    api_key= st.secrets.api_key ,
+    api_secret = st.secrets.api_secret)
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
