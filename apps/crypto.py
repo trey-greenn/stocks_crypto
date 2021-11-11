@@ -4,8 +4,8 @@ from binance import Client
 import mplfinance as mpf
 
 client = Client(
-    api_key = "ccGNkNWxLCgKqQ7JyhcW5BRZ3knaOon2Pb5WQwytCrks1ZnkKWwhKg92kXsNkgpR",
-    api_secret = "Pca64XXUWL0ACzpRjytYRKuS0UoDv5N4uJMYX99S1ryKGfyjxyYQWIQU5h6TL54m")
+    api_key ,
+    api_secret)
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
